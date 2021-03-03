@@ -1,0 +1,9 @@
+i read the practical guide from the beginning to the end, 
+so sorry i didn't know in advance that we have to write the file and the commit message informativelt! 
+
+And i misunderstood that the initial file "thingsIlike" on the fold "Practice4" need to be remained 
+so i changed my file (that we work on today) name from "thingsilike.txt" to "thingsilike2.txt".
+hope this change wouldn't cofuse you.
+
+it's a hard practice since it took me a lot of time to clone the files.
+but it's still a meaningful experience.
