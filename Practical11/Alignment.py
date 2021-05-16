@@ -11,7 +11,7 @@ file2=sequence_mouse.read()
 file3=sequence_random.read()
 #to get the sequences we need
 human_=re.findall(r'\w+',file1)
-human=human_[3]
+human=human_[3]#to extract the sequence we need for next step
 mouse_=re.findall(r'\w+',file2)
 mouse=mouse_[3]
 random_=re.findall(r'\w+',file3)
@@ -44,7 +44,7 @@ blosum = [
 [ 0, -1, -1, -1, -2, -1, -1, -1, -1, -1, -1, -1, -1, -1, -2,  0,  0, -2, -1, -1, -1, -1, -1, -4],
 [-4, -4, -4, -4, -4, -4, -4, -4, -4, -4, -4, -4, -4, -4, -4, -4, -4, -4, -4, -4, -4, -4, -4,  1],
 ]
-edit_distance1=0
+edit_distance1=0 #define
 edit_distance2=0
 edit_distance3=0
 #count the aminos that are different between each two sequences
@@ -62,7 +62,7 @@ for c in range(len(random)):
 def score(x,y):
     scores=0
     for i in range(0,len(x)):
-        a=amino.index(x[i])
+        a=amino.index(x[i])#in turn define a and b
         b=amino.index(y[i])
         scores += blosum[a][b]
     return scores

@@ -14,8 +14,8 @@ for aim in sequence:
     if 'unknown function' in aim:
         n=n+1
         name=re.findall(r'(\S+?)_',aim)[0]
-        aim_=re.sub("\n", r"",aim)
-        seq=re.findall(r']([^ ]+)',aim_)[0]
+        aim_=re.sub("\n", r"",aim)#gather them into a line
+        seq=re.findall(r']([^ ]+)',aim_)[0]#extract the sequence
         length=len(seq)
         gene_name.append(name)
         gene_len.append(length)

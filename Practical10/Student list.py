@@ -16,5 +16,5 @@ z.attributes()
 a=input('The first name: ')
 b=input('The last name: ')
 c=input('The undergraduate programme: ')
-z=Student(a,b,c)
+z=Student(a,b,c)#use the class defined above
 z.attributes()

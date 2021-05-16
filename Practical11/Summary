@@ -1,0 +1,13 @@
+Result: 
+1. human-mouse
+   score:1091
+   percentage:89.63963963963964%
+2. human-random
+   score:-250
+   percentage:5.855855855855852%
+3. mouse-random
+   score:-250
+   percentage:5.405405405405405%
+
+From these data, we can summarize that human has a large sequence similarity with mouse compared to a random sequence. This may be interpreted that human and mouse are all mammal with the same ancestors.
+However, a genetic similarity near to 90% dosen't mean they are 90% the same. 10% discrepancy in gene can cause a huge difference in phenotype, which can explain why we are obviously different from mouse in appearance.

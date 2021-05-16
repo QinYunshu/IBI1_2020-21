@@ -19,7 +19,7 @@ for aim in sequence:
         aim_=re.sub("\n", r"",aim)
         seq=re.findall(r']([^ ]+)',aim_)[0]
         a=len(seq)
-        length=(a/3)
+        length=(a/3)#3 codons represent 1 protein
         gene_name.append(name)
         gene_len.append(length)
         amino_acid = ' '
